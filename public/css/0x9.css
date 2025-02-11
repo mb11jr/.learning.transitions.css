@@ -1,0 +1,25 @@
+#parent {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    transition: 3s;
+    #child {
+        background-color: lightblue;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        transition: 3s;
+    }
+}
+
+#parent:active {
+    background-color: orange;
+    margin-left: 50%;
+    border-radius: 50%;
+}
+
+#parent:active #child{
+    background-color: blue;
+    margin-left: 85%;
+    border-radius: 0;
+}
