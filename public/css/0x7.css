@@ -1,0 +1,16 @@
+#box {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    transition: 3s;
+    transition-timing-function: ease;
+}
+
+
+#box:active {
+    margin-left: 50%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+}
