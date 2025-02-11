@@ -1,0 +1,11 @@
+#box {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    transition: 2s;
+}
+
+#box:hover {
+    background-color: purple;
+    border-radius: 50%;
+}
