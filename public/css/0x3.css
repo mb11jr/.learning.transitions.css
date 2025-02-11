@@ -1,0 +1,10 @@
+#box {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    transition: 4s;
+}
+
+#box:hover {
+    background-color: red;
+}
